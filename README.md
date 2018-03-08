@@ -1,8 +1,7 @@
 # Unscented Kalman Filter Project 
 Self-Driving Car Engineer Nanodegree Program
 
-In this project utilize an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower than the tolerance.
-
+In this project utilize an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. This project requires obtaining RMSE values that are lower than the tolerance.
 
 ---
 
@@ -15,13 +14,21 @@ In this project utilize an Unscented Kalman Filter to estimate the state of a mo
 from the simulator.
 
 ## Output from code execution
-![UKF Output](https://raw.github.com/ShankarChavan/Unscented-Kalman-Filter/img/UnscentedKF_result.png)
+![UKF Output](https://raw.github.com/ShankarChavan/Unscented-Kalman-Filter/master/img/UnscentedKF_result.png)
 
 We can observe in the above image that RMSE values are below the tolearnce level.
 
 ## NIS values
 
-![NIS_Laser](https://raw.github.com/ShankarChavan/Unscented-Kalman-Filter/img/NIS_Laser.png)
+There is notebook to visualize below NIS plot in the repository.
 
-![NIS_Radar](https://raw.github.com/ShankarChavan/Unscented-Kalman-Filter/img/NIS_Radar.png)
+I tried with different values for `std_a_` and `std_yawdd_`and finally settled for 1 and 0.3 values  
+
+![NIS_Radar](https://raw.github.com/ShankarChavan/Unscented-Kalman-Filter/master/img/NIS_Radar.png)
+
+Radar NIS values seems to be under 7.8 values 
+
+![NIS_Laser](https://raw.github.com/ShankarChavan/Unscented-Kalman-Filter/master/img/NIS_Laser.png)
+
+
 
