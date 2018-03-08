@@ -13,10 +13,16 @@ In this project objective was to utilize an Unscented Kalman Filter to estimate 
 4. Run it: `./UnscentedKF` Previous versions use i/o from text files.  The current state uses i/o
 from the simulator.
 
-## Output from code execution
+
+We can observe in the below images that RMSE values are improved in UKF compare to EKF for Vx and Vy. 
+
+## Output from code execution of UKF
 ![UKF Output](https://raw.github.com/ShankarChavan/Unscented-Kalman-Filter/master/img/UnscentedKF_result.png)
 
-We can observe in the above image that RMSE values are below the tolearnce level.
+## Output from code execution of EKF
+![EKF Output](https://raw.github.com/ShankarChavan/Unscented-Kalman-Filter/master/img/output1.png)
+
+
 
 ## NIS values
 
